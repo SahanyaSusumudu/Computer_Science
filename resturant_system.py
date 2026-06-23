@@ -51,7 +51,7 @@ def food_menu():
   while True:
     food_service=int(input("\nEnter the number of the food to add to cart: "))
     if food_service == 5:
-            print("Exiting food menu...")
+            print("Exiting the food menu...")
             break
     amount=int(input("Enter the amount: "))
 
